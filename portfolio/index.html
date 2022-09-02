@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name='viewport' content='width=device-width,initial-scale=1'/>
+    <meta content='true' name='HandheldFriendly'/>
+    <meta content='width' name='MobileOptimized'/>
+    <meta content='yes' name='apple-mobile-web-app-capable'/>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.ico">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <div class="nav-item-icon">
+                    <a href="#">
+                        <svg id="logo-icon">
+                            <use xlink:href="./assets/svg/sprite.svg#logo"></use>
+                          </svg>
+                    </a>
+                </div>
+                <div class="right-navigation-container">
+                    <div class="nav-list-outer">
+                        <ul class="nav-list">
+                                <li class="nav-item">
+                                    <a href="#skills" class="nav-link">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#videos" class="nav-link">Video</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#price" class="nav-link">Price</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#contacts" class="nav-link">Contacts</a>
+                                </li>
+                        </ul>
+                    </div>
+                    <li class="nav-item" id="language-switch-container">
+                        <input type="radio" style="display: none;" name="language" id="english" value="en" checked>
+                        <label for="english" class="language-switch">en</label>
+                        <span class="language-switch">/</span>
+                        <input type="radio" style="display: none;" name="language" id="russian" value="ru">
+                        <label for="russian" class="language-switch" id="language-ru">ru</label>
+                    </li>
+                    <div class="hamburger-menu-wrapper">
+                        <div class="hamburger-menu">
+                            <div class="line part1"></div>
+                            <div class="line part2"></div>
+                            <div class="line part3"></div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <main class="main">
+        <div>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>Alexa Rise</h1>
+                        <p class="hero-description">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
+                        <button class="button-golden">Hire me</button>
+                    </div>
+                </div>
+            </section>
+            <section class="skills" id="skills">
+                <div class="title-wrapper">
+                    <hr>
+                    <h2 class="section-title">Skills</h2>
+                    <hr>
+                </div>
+                <div class="skills-content">
+                    <div class="skills-item">
+                        <svg class="icon" id="camera">
+                            <use xlink:href="./assets/svg/sprite.svg#camera"></use>
+                            </svg>
+                        <h3>Digital photography</h3>
+                        <p>High-quality photos in the studio and on the nature</p>
+                    </div>
+                    <div class="skills-item">
+                        <svg class="icon" id="video">
+                            <use xlink:href="./assets/svg/sprite.svg#video"></use>
+                            </svg>
+                        <h3>Video shooting</h3>
+                        <p>Capture your moments so that they always stay with you</p>
+                    </div>
+                    <div class="skills-item">
+                        <svg class="icon" id="image">
+                            <use xlink:href="./assets/svg/sprite.svg#image"></use>
+                            </svg>
+                        <h3>Retouch</h3>
+                        <p>I strive to make photography surpass reality</p>
+                    </div>
+                    <div class="skills-item">
+                        <svg class="icon" id="mic">
+                            <use xlink:href="./assets/svg/sprite.svg#mic"></use>
+                            </svg>
+                        <h3>Audio</h3>
+                        <p>Professional sounds recording for video, advertising, portfolio</p>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio" id="portfolio">
+                <div class="portfolio-content">
+                    <div class="title-wrapper" id="portfolio-title-wrapper">
+                        <hr>
+                        <h2 class="section-title">Portfolio</h2>
+                        <hr>
+                    </div>
+                    <div class="buttons-wrapper">
+                        <button class="button-stroke">Winter</button>
+                        <button class="button-stroke">Spring</button>
+                        <button class="button-stroke">Summer</button>
+                        <button class="button-stroke" id="autumn-button">Autumn</button>
+                    </div>
+                    <div class="gallery">
+                        <img class="autumn-image" src="./assets/img/portfolio-img.jpg" alt="autumn 0">
+                        <img class="autumn-image" src="./assets/img/portfolio-img-1.jpg" alt="autumn 1">
+                        <img class="autumn-image" src="./assets/img/portfolio-img-2.jpg" alt="autumn 2">
+                        <img class="autumn-image" src="./assets/img/portfolio-img-3.jpg" alt="autumn 3">
+                        <img class="autumn-image" src="./assets/img/portfolio-img-4.jpg" alt="autumn 4">
+                        <img class="autumn-image" src="./assets/img/portfolio-img-5.jpg" alt="autumn 5">
+                    </div>
+                </div>
+            </section>
+            <section class="video" id="videos">
+                <div class="video-content">
+                    <div class="title-wrapper" id="video-title-wrapper">
+                        <hr>
+                        <h2 class="section-title">Video</h2>
+                        <hr>
+                    </div>
+                    <div class="video-player">
+                        <img src="./assets/img/video-player.jpg" alt="video-player" id="video-player-desktop-image">
+                        <button class="button-play">
+                            <svg class="icon" id="button-play-icon">
+                                <use xlink:href="./assets/svg/sprite.svg#play_video"></use>
+                                </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="price" id="price">
+                <div class="title-wrapper" id="price-title-wrapper">
+                    <hr>
+                    <h2 class="section-title">Price</h2> 
+                    <hr>
+                </div>
+                <div class="price-content">
+                    <div class="price-items-container">
+                        <div class="price-item">
+                            <h3>Standard</h3>
+                            <div class="cost">500 $</div>
+                            <span>One location</span>
+                            <span>120 photos in color</span>
+                            <span>12 photos in retouch</span>
+                            <span>Readiness 2-3 weeks</span>
+                            <span>Make up, visage</span>
+                            <button class="button-golden">Order shooting</button>
+                        </div>
+                        <div class="price-item">
+                            <h3>Premium</h3>
+                            <div class="cost">700 $</div>
+                            <span>One or two locations</span>
+                            <span>200 photos in color</span>
+                            <span>20 photos in retouch</span>
+                            <span>Readiness 1-2 weeks</span>
+                            <span>Make up, visage</span>
+                            <button class="button-golden">Order shooting</button>
+                        </div>
+                        <div class="price-item">
+                            <h3>Gold</h3>
+                            <div class="cost">1000 $</div>
+                            <span>Three locations or more</span>
+                            <span>300 photos in color</span>
+                            <span>50 photos in retouch</span>
+                            <span>Readiness 1 week</span>
+                            <span>Make up, visage, hairstyle</span>
+                            <button class="button-golden">Order shooting</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts" id="contacts">
+                <div class="contacts-content">
+                    <div class="contacts-outer">
+                        <h2 class="section-title" id="contact-section-title">Contact me</h2>
+                        <form class="contacts-form">
+                            <div class="contacts-container">
+                                <input type="email" name="contacts" placeholder="E-mail" class="contacts-item">
+                                <input type="tel" name="contacts" placeholder="Phone" class="contacts-item">
+                                <textarea id="contacts-textarea" name="message" rows="5" placeholder="Message" class="contacts-item"></textarea>
+                            </div>
+                            <button type="submit" class="button-golden" id="submit-button">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+            <ul class="footer-contacts-container">
+                <li class="github-link-container">
+                    <span>©</span>
+                    <span>2022</span>
+                    <a href="https://github.com/haslie22">github</a>
+                </li>
+                <li>
+                    <a href="https://rs.school/js-stage0/">Rolling Scopes School</a>
+                </li>
+            </ul>
+            <ul class="footer-logos-container">
+                <li class="footer-icon-container">
+                    <a href="#">
+                        <div>
+                            <svg class="footer-icon" id="inst-logo">
+                                <use xlink:href="./assets/svg/sprite.svg#inst"></use>
+                              </svg>
+                        </div>
+                    </a>
+                </li>
+                <li class="footer-icon-container">
+                    <a href="#">
+                        <div>
+                            <svg class="footer-icon" id="fb-logo">
+                                <use xlink:href="./assets/svg/sprite.svg#fb"></use>
+                                </svg>
+                        </div>
+                    </a>
+                </li>
+                <li class="footer-icon-container">
+                    <a href="#">
+                        <div>
+                            <svg class="footer-icon" id="tw-logo">
+                                <use xlink:href="./assets/svg/sprite.svg#tw"></use>
+                              </svg>
+                        </div>
+                    </a>
+                </li>
+                <li class="footer-icon-container">
+                    <a href="#">
+                        <div>
+                            <svg class="footer-icon" id="pint-logo">
+                                <use xlink:href="./assets/svg/sprite.svg#pint"></use>
+                            </svg>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+    </footer>
+    <div id="shadow"></div>
+    <script src="./index.js"></script>
+</body>
+</html>
